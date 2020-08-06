@@ -1,0 +1,35 @@
+{% extends 'layout.html '%}
+
+
+{% block body %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url(' {{ url_for('static', filename='img/about-bg.jpg') }}       ')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About Me</h1>
+            <span class="subheading">Need Help?</span> 
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>THIS WEBSITE IS CREATED BY MR.RISHI KUMAR ON DATE 2020-07-23 THURSDAY
+
+          </p>
+        <p>RISHI IS VERY GOOD BOY !!!!!!!!!!....... </p>
+        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut consequuntur magnam, excepturi aliquid ex itaque esse est vero natus quae optio aperiam soluta voluptatibus corporis atque iste neque sit tempora!</p> -->
+      </div>
+    </div>
+  </div>
+
+  <hr>
+  {% endblock %}

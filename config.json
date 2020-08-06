@@ -1,0 +1,18 @@
+{
+  "params":
+
+  {
+    "local_server": "True",
+    "local_uri": "mysql://root:@localhost/blog",
+    "prod_uri": "mysql://root:@localhost/blog",
+    "title": "Bloglog",
+    "heading": "BLOGlog",
+    "tag_line": "A Website By Mr.Rishi Kumar",
+    "username": "rishikumargautam5002.gmail.com",
+    "password": "5+0+0+2=5002",
+    "no_of_post": 5
+
+  }
+
+
+}
